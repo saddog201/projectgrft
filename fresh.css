@@ -452,6 +452,7 @@ NAVIGATION
 }
 /*- Cards*/
 .card {
+    float: left
     background-color: var(--card-color);
     color: var(--card-text);
     margin-bottom: 20px;
