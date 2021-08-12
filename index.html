@@ -2,13 +2,98 @@
   <head>
     <link type = "text/css" rel = "stylesheet" href = "https://cdn.jsdelivr.net/gh/HunterBall/Fresh@1.1.1/fresh.min.css">
     <script src = "https://cdn.jsdelivr.net/gh/HunterBall/Fresh@1.1.1/fresh.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+
+    <style>
+      .hero{
+        background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('rice.jpg');
+      }
+
+      .card{
+        float:  inherit;
+        padding:  2px;
+        margins:  0px 50px 0px 50px;
+        font-size:  16px;
+      }
+
+      .center{
+          margin: auto;
+          width: 60%;
+          padding: 10px;
+          }
+      }
+    </style>
   </head>
   <body>
     <div class = "main">
-      <!--Add Components Here-->
-      <p>
-        Hi there! projectgrft site under construction.
-      </p>
+      <div class='nav sticky'>
+        <img class = "icon" src = "logo.png"/>
+        <a class = "title">PROJECT GRFT</a>
+        <a class = "item">Home</a>
+        <a class = "item">Who We Are</a>
+        <a class = "item">Our Members</a>
+      </div>
+        <div class = "hero primary">
+          <center>
+          <h1> Project GRFT </h1>
+          <!-- We need an actual thing -->
+          <h3> Make corn cool </h3>
+        </center>
+        </div>
+      </div>
+
+      <div class = 'main'>
+        <div class = 'container'>
+          <center>
+          <div class = 'header'>
+            <h4>WHO WE ARE</h4>
+          </div>
+            <p> We have evidence of a powerful anti-viral biologic that has been shown to be effective against coronaviruses and other enveloped viruses in animal models.
+            We are forming a team to license it, biomanufacture and deploy it globally via expression within genetically engineered rice.
+            Our work is multidisciplinary, including genetics, plant cell culture, hardware development, and legal.
+            </p>
+        </center>
+        </div>
+
+        <div class = 'container'>
+          <center>
+          <div class = 'header'>
+            <h4>OUR PURPOSE</h4>
+          </div>
+            <p> We aim to provide a material means to protect all people worldwide from coronaviruses, other enveloped viruses that are inhibited by GRFT and from emerging viruses.
+            </p>
+        </center>
+        </div>
+
+
+      <!--Our members-->
+    <!--<div class = 'main'>
+      <center>
+      <h4> Meet Our Members </h4>
+      <ul style="list-style-type:none;">
+        <li>Sreeni Eadara </li>
+        <li> Other People </li>
+      </ul>
+    </center> -->
+
+
+      <!-- All the member cards -->
+    <div class="center">
+      <h4> Meet Our Members </h4>
+      <div id="member-cards" class="row"></div>
     </div>
+
+      </div>
+
+
+      </div>
+    <script src="main.js"></script>
   </body>
 </html>
